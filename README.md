@@ -1,6 +1,6 @@
 # MTC2023
 
-This project is a rewrite and enhancement of the open-source project [USTC-TK2016](https://github.com/USTC-TK2016). I would like to express my gratitude to the developers of USTC-TK2016 for their great work. Pcap Preprocessing Tool is a simple Python-based tool for preprocessing pcap files into images for network traffic analysis and machine learning purposes. The tool implements pcap file splitting, normalization, and conversion to PNG images.
+This project is a rewrite and enhancement of the open-source project [USTC-TK2016](https://github.com/yungshenglu/USTC-TK2016). I would like to express my gratitude to the developers of USTC-TK2016 for their great work. Pcap Preprocessing Tool is a simple Python-based tool for preprocessing pcap files into images for network traffic analysis and machine learning purposes. The tool implements pcap file splitting, normalization, and conversion to PNG images.
 
 [中文版文档](./README_CN.md)
 
@@ -12,6 +12,7 @@ This project is a rewrite and enhancement of the open-source project [USTC-TK201
 
 ## File Structure
 
+```path
 .
 ├─ main_gui.py
 ├─ normalize_pcap.py
@@ -20,6 +21,7 @@ This project is a rewrite and enhancement of the open-source project [USTC-TK201
 ├─ img_output
 ├─ length_output
 └─ session_output
+```
 
 ## How to Run
 

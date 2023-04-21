@@ -1,6 +1,6 @@
 # MTC2023
 
-本项目是对开源项目 [USTC-TK2016](https://github.com/USTC-TK2016) 的重写和增强。在此对 USTC-TK2016 的开发者表示感谢。Pcap 预处理工具是一个简单的基于 Python 的工具，用于将 pcap 文件预处理成图像，以便进行网络流量分析和机器学习。该工具实现了 pcap 文件的拆分、规范化和转换为 PNG 图像。
+本项目是对开源项目 [USTC-TK2016](https://github.com/yungshenglu/USTC-TK2016) 的重写和增强。在此对 USTC-TK2016 的开发者表示感谢。Pcap 预处理工具是一个简单的基于 Python 的工具，用于将 pcap 文件预处理成图像，以便进行网络流量分析和机器学习。该工具实现了 pcap 文件的拆分、规范化和转换为 PNG 图像。
 
 [English Documentation](./README_EN.md)
 
@@ -12,6 +12,7 @@
 
 ## 文件结构
 
+```path
 .
 ├─ main_gui.py
 ├─ normalize_pcap.py
@@ -20,6 +21,7 @@
 ├─ img_output
 ├─ length_output
 └─ session_output
+```
 
 ## 如何运行
 
