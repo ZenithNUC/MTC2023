@@ -37,7 +37,7 @@ def create_output_files(sessions, output_prefix):
 
 if __name__ == "__main__":
     input_file = "Tinba.pcap"
-    output_prefix = "output/session"
+    output_folder = "output/session"
 
     sessions = parse_pcap(input_file)
-    create_output_files(sessions, output_prefix)
+    create_output_files(sessions, output_folder)

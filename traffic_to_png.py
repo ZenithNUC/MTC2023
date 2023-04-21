@@ -41,6 +41,6 @@ def pcap_to_image(input_folder, output_folder):
 
 
 if __name__ == "__main__":
-    input_dir = 'length_output'  # 输入目录，包含 pcap 文件
-    output_dir = 'output_images'  # 输出目录，用于保存生成的 PNG 图片
-    pcap_to_image(input_dir, output_dir)
+    input_folder = 'length_output'  # 输入目录，包含 pcap 文件
+    output_folder = 'output_images'  # 输出目录，用于保存生成的 PNG 图片
+    pcap_to_image(input_folder, output_folder)
